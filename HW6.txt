@@ -1,0 +1,11 @@
+Michael Quinn
+
+1. Page 167 exercise 3.1:
+Indicate the binding time (when the language is designed, when the program is linked, when the program begins execution, etc.) for each of the following decisions in your favorite programming language and implementation. Explain any answers you think are open to interpretation.
+- The number of built-in functions (math, type queries, etc.)
+- The variable declaration that corresponds to a particular variable reference (use)
+- The maximum length allowed for a constant (literal) character string
+- The referencing environment for a subroutine that is passed as a parameter
+- The address of a particular library routine
+- The total amount of space occupied by program code and data
+
