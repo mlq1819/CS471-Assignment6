@@ -24,3 +24,10 @@ f) The total amount of space occupied by program code and data
 Link Time; technically it happens after everything is linked, but it still is reserved before execution begins.
 
 
+2 and 3: Unfortunately, no instructions are given on how to run powR.c, and it will not run because it has no entry point.
+
+4. Many storage-management algorithms maintain a list of free blocks.  Here are two different algorithms, first fit and best fit, used to search this list and return a block of the appropriate size.  Which strategy, if either, will result in lower external fragmentation?  What does external fragmentation depend on?
+First Fit will use the first free block that is large enough to store the block, while Best Fit searches for the smallest block that is large enough. Best Fit is very good at preventing Internal Fragmentation, but can lead to more External Fragmentation in some cases. External Fragmentation is best described by the number of blocks that the free space is divided into; because First Fit tends to cluster more blocks towards the beginning, and is more likely to make use of the Free Blocks between used blocks, it often results in lower external fragmentation. 
+That said, the external fragmentation really depends on the size distribution of the blocks; if there are many larger blocks, Best Fit will likely result in lower External Fragmentation, while First Fit may be better when there are many smaller blocks.
+
+5. 
